@@ -1,0 +1,13 @@
+forEach(callback){
+	// 배열순회
+	const el= "각자의 배열 요소";
+	const i = "각자의 배열 요소의 인덱스";
+	
+	callback(el, i);
+	}
+	
+	forEach(function(el, i){
+	
+	});
+	
+	element.addEventListener

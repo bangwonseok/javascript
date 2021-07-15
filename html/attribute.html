@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset='utf-8'>
+		<style>
+		
+		
+		</style>
+		<script>
+		wiondow.onload = function(){
+			document.getElemenById("show_toggle").onclick = function{
+				const box= document.querySelector(".box");
+				box.classList.toggle("dn");
+			};
+		};
+		</script>
+	</head>
+	<body>
+		<div csl= 'box dn' > 속성테스트 </div>
+		<button id='show_toggle'>보이거나 감추거나 </button>
+	</body>
+</html>

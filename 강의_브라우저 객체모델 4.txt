@@ -1,0 +1,10 @@
+요소 생성
+	document.creatElement("태그명)
+	document.creatTextNode("태그에 들어갈 문구");
+	
+	부모노드.appendChild(삽입할 노드);
+	예) button.appendChild(text);
+	
+	부모노드.removeChild(삭제할 노드);
+	
+	부모노드.insertBefore(추가할 노드, 위치할 기준 노드)
